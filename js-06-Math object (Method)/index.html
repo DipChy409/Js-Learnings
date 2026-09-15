@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math In Javascript</title>
+   
+
+    
+</head>
+
+<body style="font-family: cursive;">
+    <h1>Math in Javascript</h1>
+    <h2>Mathematical/Arithmetic Operators  </h2>
+    <ol>
+        <li>Addition Operator: +</li>
+        <li>subtraction Operator: -</li>
+        <li>Multiplication Operator: *</li>
+        <li>Division Operator: /</li>
+        <li>Assignment Operator: =</li>
+        <li>Remainder Operator: %</li>
+        <li>Exponentiation Operator: **</li>
+    </ol>
+    <h2>Math Object in JavaScript</h2>
+    <h3>Properties on Math Object</h3>
+    <ul>
+        <li>Math.PI</li>
+        <li>Math.SQRT2</li>
+        <li>Math.E</li>
+    </ul>
+    <h3>Methods on Math Object</h3>
+    <ul>
+        <li>Math.sqrt(x)</li>
+        <li>Math.pow(x, y)</li>
+        <li>Math.floor(x)</li>
+        <li>Math.ceil(x)</li>
+        <li>Math.round(x)</li>
+        <li>Math.random()</li>
+        <li>Math.max()</li>
+        <li>Math.trunc</li>
+        <li>Math.abs()</li>
+    </ul>
+    <p>8 / 0 = Infinity</p>
+    <p>-8 / 0 = -Infinity</p>
+    <p>To check whether a value is NaN: isNaN("12px") return true</p>
+    <p>To check whether a value is Finite Number: isFinite("12px") return false</p>
+    <p>To check whether a value is an Integer or Float value: Number.isInteger(5.67) return false and Number.isInteger(5) return true</p>
+<p style="color: red;">
+    JavaScript primarily uses two sets of equality operators: loose and strict. 
+    <ol>
+<li>Strict Equality (=== and !==) </li> 
+They compare both the value and the data type without any automatic conversion
+<p><ul>
+<li>=== (Strict Equal): Returns true only if both operands have the same type and the same value.</li>
+</p>
+<ul>
+<li>5 === 5 → true</li>
+<li> 5 === '5' → false (different types: number vs string)</li>
+</ul>
+<li>!== (Strict Not Equal): Returns true if the operands are of different types or have different values.</li>
+</ul>
+<ul><li>
+5 !== '5' → true 
+</li>
+
+
+</ul>
+ <li>Loose Equality (== and !=) </li>
+</ol> <span>
+These operators perform type coercion (automatic conversion) before comparing the values. 
+</span>
+
+ <ol><li>
+== (Loose Equal): Attempts to convert operands to a common type and then compares them.
+</li>
+<ul>
+<li>5 == '5' → true (string '5' is converted to number 5)</li>
+<li>0 == false → true (false is converted to 0)</li>
+<li>null == undefined → true (special rule)</li>
+</ul>
+
+<li>!= (Loose Not Equal): Returns true if the values are not equal after type coercion.</li>
+<ul><li>5 != '5' → false</li></ul>
+</ol>
+
+</p>
+     <script src="script.js"></script>
+</body>
+</html>
