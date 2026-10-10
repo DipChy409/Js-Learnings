@@ -1,0 +1,43 @@
+ul li b{
+   /* visibility: hidden; */
+   /* display: none; */
+   opacity: 0;
+   /* pointer-events: none; */
+}
+
+[webdev="DIP"]{
+   background-color: blue;
+}
+
+#heading{
+   color: coral;
+}
+.css-image{
+   color:red;
+   /* background-color: black; */
+   /* font-size: 18px;
+   font-family: cursive;
+   font-weight: 700;
+   text-decoration: none; */
+}
+
+.green-link{
+   font-size: 18px;
+   font-family: cursive;
+   font-weight: 900;
+   text-decoration: none;
+   color: red
+}
+
+.wavy-link{
+   text-decoration-line: underline;
+   text-decoration-style: wavy;
+}
+.my-link{
+   border: 2px solid green;
+}
+
+.hidden{
+   display: none;
+}
+
