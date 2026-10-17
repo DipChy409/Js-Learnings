@@ -23,3 +23,9 @@ let user1 = { name: 'Alice',name2: "Dipo", age: 20 };
 user1 = { name: 'Bob' };
 let user2 = user1;
 
+let matrix = [
+    [10, 20, 30],
+    [40, 50, 60]
+];
+//console table will print 2d array beatyfully...
+console.table(matrix);
