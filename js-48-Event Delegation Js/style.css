@@ -1,0 +1,31 @@
+/* //Event Deletion Js.................................................... */
+/* // const cardList= document.querySelectorAll(".card")
+
+// cardList.forEach((card)=>{
+//     console.log(card);
+//     card.addEventListener("click", ()=>{
+//         card.remove()
+//     })
+// })
+
+// addCardButton.addEventListener('click', () => {
+//     const newCard = document.createElement('div')
+//     newCard.classList.add('card')
+//     newCard.innerText = count++
+//     container.append(newCard)
+
+
+//     newCard.addEventListener("click",()=>{
+//         newCard.remove()
+//     })//Not good practice
+// })
+
+container.addEventListener("click", (e)=>{
+    // console.log(e.target);
+    // e.target.remove()
+
+    if(e.target != container){
+        e.target.remove()
+    }
+}) */
+
